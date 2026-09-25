@@ -6,6 +6,4 @@ use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Model;
 
 #[Fillable(['name', 'description', 'muscle_group', 'media'])]
-class Exercise extends Model
-{
-}
+class Exercise extends Model {}
